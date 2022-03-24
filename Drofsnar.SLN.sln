@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D3BA585C-E36A-4418-A0D0-53E17CF6F902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drofsnar.Setup", "src\Drofsnar.Setup\Drofsnar.Setup.csproj", "{4BF4FA95-8A27-408E-B23E-DA03D94F19CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drofsnar.UI", "src\Drofsnar.UI\Drofsnar.UI.csproj", "{0F7E4958-DC76-4BFD-9262-95416A1D62C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF4FA95-8A27-408E-B23E-DA03D94F19CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF4FA95-8A27-408E-B23E-DA03D94F19CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF4FA95-8A27-408E-B23E-DA03D94F19CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF4FA95-8A27-408E-B23E-DA03D94F19CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7E4958-DC76-4BFD-9262-95416A1D62C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7E4958-DC76-4BFD-9262-95416A1D62C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7E4958-DC76-4BFD-9262-95416A1D62C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7E4958-DC76-4BFD-9262-95416A1D62C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BF4FA95-8A27-408E-B23E-DA03D94F19CA} = {D3BA585C-E36A-4418-A0D0-53E17CF6F902}
+		{0F7E4958-DC76-4BFD-9262-95416A1D62C2} = {D3BA585C-E36A-4418-A0D0-53E17CF6F902}
+	EndGlobalSection
+EndGlobal
